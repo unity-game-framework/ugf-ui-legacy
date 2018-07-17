@@ -3,5 +3,5 @@
     "displayName": "UGF.UI",
     "version": "1.1.4",
     "unity": "2018.2",
-    "description": "This package provides list of utilities and tools for working with Unity UI."
+    "description": "This package provides utilities for working with Unity UI."
 }

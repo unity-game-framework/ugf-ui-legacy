@@ -4,7 +4,7 @@ Provides tools for creating games powered by Unity Game Engine.
 
 ## UGF.UI
 
-- **Version**: 1.1.4
+- **Version**: 1.1.4.1
 - **Unity Version**: 2018.2.0
 - **Scripting Runtime Version**: .Net 4.x Equivalent
 - **Api Compatibility Level**: .Net 4.x
@@ -15,7 +15,7 @@ Provides tools for creating games powered by Unity Game Engine.
 
 ## About
 
-This package provides list of utilities and tools for working with **Unity UI**.
+This package provides utilities for working with **Unity UI**.
 
 The list of features:
 - [UI Edit Mode](docs/ui_edit_mode.md)
