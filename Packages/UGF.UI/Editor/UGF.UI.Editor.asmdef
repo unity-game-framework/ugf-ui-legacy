@@ -1,0 +1,12 @@
+{
+    "name": "UGF.UI.Editor",
+    "references": [
+        "UGF.UI.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
