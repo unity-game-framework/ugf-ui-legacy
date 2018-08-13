@@ -9,9 +9,9 @@
 bin/
 .vs/
 
-# *.csproj
+*.csproj
 *.unityproj
-# *.sln
+*.sln
 *.suo
 *.tmp
 *.user
