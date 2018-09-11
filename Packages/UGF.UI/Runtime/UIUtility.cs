@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.Assertions;
+﻿using System;
+using UnityEngine;
 
 namespace UGF.UI.Runtime
 {
@@ -14,7 +14,10 @@ namespace UGF.UI.Runtime
         /// <param name="rectTransform">The target RectTransform.</param>
         public static void SetAnchorsToCorners(RectTransform rectTransform)
         {
-            Assert.IsNotNull(rectTransform, "The target RectTransform cannot be null.");
+            if (rectTransform == null)
+            {
+                throw new ArgumentNullException(nameof(rectTransform));
+            }
 
             var parent = rectTransform.parent as RectTransform;
 
@@ -41,7 +44,10 @@ namespace UGF.UI.Runtime
         /// <param name="rectTransform">The target RectTransform.</param>
         public static void SetCornersToAnchors(RectTransform rectTransform)
         {
-            Assert.IsNotNull(rectTransform, "The target RectTransform cannot be null.");
+            if (rectTransform == null)
+            {
+                throw new ArgumentNullException(nameof(rectTransform));
+            }
 
             rectTransform.offsetMin = Vector2.zero;
             rectTransform.offsetMax = Vector2.zero;
